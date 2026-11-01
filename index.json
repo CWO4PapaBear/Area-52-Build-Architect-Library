@@ -1,6 +1,18 @@
 {
   "builds": [
     {
+      "author": "LiterallyElbowTTV",
+      "compatibility": {
+        "catalog": "area52-v1",
+        "realm": "area52"
+      },
+      "id": "4e9298a8-1277-47c5-ae59-860fe04085ac",
+      "name": "Naturalist",
+      "path": "builds/Naturalist--4e9298a8-1277-47c5-ae59-860fe04085ac/current.json",
+      "revision": 1,
+      "sha256": "b106724fd7f8c70177947dfccf867b6272c271bfa934e0c90d322ea7661e4905"
+    },
+    {
       "author": "CWO4PapaBear",
       "compatibility": {
         "catalog": "area52-v1",

@@ -1,0 +1,1294 @@
+{
+  "author": "LiterallyElbowTTV",
+  "build": {
+    "ArmorTypes": [
+      {
+        "Comment": "",
+        "Type": "ITEM_SUBCLASS_ARMOR_CLOTH"
+      },
+      {
+        "Comment": "",
+        "Type": "ITEM_SUBCLASS_ARMOR_LEATHER"
+      }
+    ],
+    "Category": "Leveling",
+    "Description": "### OVERVIEW\nPlant healing seeds upon your allies and nurture their growth!\n\nAs a Naturalist, you'll rejuvenate your party with a range of healing-over-time effects, caring for them until it is time for them to bloom, resulting in massive bursts of healing. \n\nMaintain and manage your seedlings to keep your party moving forward!",
+    "DifficultyRating": "BUILD_DIFFICULTY_RATING_EASY",
+    "Icon": "spell_nature_regeneration_02",
+    "Name": "Naturalist",
+    "PrimaryStat": "STAT_SPIRIT",
+    "RandomEnchants": [
+      {
+        "Comment": "",
+        "Enchant": 966105,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 3
+      },
+      {
+        "Comment": "",
+        "Enchant": 917111,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 3
+      },
+      {
+        "Comment": "",
+        "Enchant": 920259,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 3
+      },
+      {
+        "Comment": "",
+        "Enchant": 951554,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 1
+      },
+      {
+        "Comment": "",
+        "Enchant": 957810,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 3
+      },
+      {
+        "Comment": "",
+        "Enchant": 81248,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 1
+      },
+      {
+        "Comment": "",
+        "Enchant": 415012,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 1
+      },
+      {
+        "Comment": "",
+        "Enchant": 81501,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 1
+      },
+      {
+        "Comment": "",
+        "Enchant": 965937,
+        "Flags": 0,
+        "Level": 1,
+        "Stacks": 1
+      }
+    ],
+    "Roles": "PLAYER_ROLE_HEALER",
+    "Spells": [
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 1,
+        "Spell": 1784
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 1,
+        "Spell": 5176
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 1,
+        "Spell": 92157
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 1,
+        "Spell": 19746
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 1,
+        "Spell": 5504
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": true,
+        "Level": 8,
+        "Spell": 774
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 10,
+        "Spell": 57810
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 11,
+        "Spell": 57811
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": true,
+        "Level": 12,
+        "Spell": 8936
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 12,
+        "Spell": 57812
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 13,
+        "Spell": 57813
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 14,
+        "Spell": 57814
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 15,
+        "Spell": 16845
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 16,
+        "Spell": 16846
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 16,
+        "Spell": 2139
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 17,
+        "Spell": 16847
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 18,
+        "Spell": 20257
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 19,
+        "Spell": 20258
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": true,
+        "Level": 20,
+        "Spell": 8004
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 20,
+        "Spell": 20259
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 20,
+        "Spell": 781
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 20,
+        "Spell": 20484
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 21,
+        "Spell": 14521
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 22,
+        "Spell": 14776
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 22,
+        "Spell": 818045
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 23,
+        "Spell": 14777
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 24,
+        "Spell": 1856
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 25,
+        "Spell": 17111
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 25,
+        "Spell": 17112
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 25,
+        "Spell": 2008
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 26,
+        "Spell": 17113
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 26,
+        "Spell": 921
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 27,
+        "Spell": 57865
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 28,
+        "Spell": 857865
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 28,
+        "Spell": 92155
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 28,
+        "Spell": 6117
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 29,
+        "Spell": 857866
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 30,
+        "Spell": 17104
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 30,
+        "Spell": 92158
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 30,
+        "Spell": 51730
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 31,
+        "Spell": 24943
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 32,
+        "Spell": 24944
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 32,
+        "Spell": 5570
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 33,
+        "Spell": 24945
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 34,
+        "Spell": 24946
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 34,
+        "Spell": 1706
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 35,
+        "Spell": 48496
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 36,
+        "Spell": 48499
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 36,
+        "Spell": 1953
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 37,
+        "Spell": 48500
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 38,
+        "Spell": 16178
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 38,
+        "Spell": 760107
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 39,
+        "Spell": 16210
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 40,
+        "Spell": 34151
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 40,
+        "Spell": 18562
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 41,
+        "Spell": 34152
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 42,
+        "Spell": 34153
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 42,
+        "Spell": 29166
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 43,
+        "Spell": 16211
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 44,
+        "Spell": 16212
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 44,
+        "Spell": 4987
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 45,
+        "Spell": 33886
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 46,
+        "Spell": 33887
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 46,
+        "Spell": 586
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 47,
+        "Spell": 33888
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 48,
+        "Spell": 16213
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 48,
+        "Spell": 16689
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 49,
+        "Spell": 31837
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 50,
+        "Spell": 31838
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 50,
+        "Spell": 33831
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 51,
+        "Spell": 31839
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 52,
+        "Spell": 18551
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 52,
+        "Spell": 974
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 53,
+        "Spell": 11232
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 54,
+        "Spell": 18552
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 54,
+        "Spell": 2782
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 55,
+        "Spell": 30867
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 56,
+        "Spell": 30868
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 57,
+        "Spell": 30869
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 58,
+        "Spell": 51179
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 59,
+        "Spell": 51180
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": true,
+        "Level": 60,
+        "Spell": 48438
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 60,
+        "Spell": 51181
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 60,
+        "Spell": 33763
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 60,
+        "Spell": 86382
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 61,
+        "Spell": 51182
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 62,
+        "Spell": 51183
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 62,
+        "Spell": 1126
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 63,
+        "Spell": 18553
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 64,
+        "Spell": 12500
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 64,
+        "Spell": 954711
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 64,
+        "Spell": 20217
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 65,
+        "Spell": 12501
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 66,
+        "Spell": 17074
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 66,
+        "Spell": 8143
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 67,
+        "Spell": 17075
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 68,
+        "Spell": 17076
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 68,
+        "Spell": 66
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 69,
+        "Spell": 17077
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 70,
+        "Spell": 17078
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 70,
+        "Spell": 556
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 71,
+        "Spell": 92161
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 71,
+        "Spell": 48539
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 72,
+        "Spell": 5675
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 72,
+        "Spell": 48544
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 73,
+        "Spell": 66842
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 73,
+        "Spell": 48545
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 74,
+        "Spell": 92159
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 74,
+        "Spell": 17003
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 75,
+        "Spell": 30706
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 75,
+        "Spell": 17004
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 76,
+        "Spell": 17005
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 77,
+        "Spell": 954510
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 77,
+        "Spell": 17485
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 78,
+        "Spell": 36936
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 78,
+        "Spell": 17486
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 79,
+        "Spell": 17487
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 80,
+        "Spell": 50464
+      },
+      {
+        "Comment": "",
+        "Flags": 0,
+        "IsCoreAbility": false,
+        "IsEmpoweringAbility": false,
+        "IsOptimalAbility": false,
+        "IsSynergisticAbility": false,
+        "Level": 80,
+        "Spell": 34908
+      }
+    ],
+    "WeaponTypes": [
+      {
+        "Comment": "",
+        "Type": "ITEM_SUBCLASS_WEAPON_STAFF"
+      }
+    ]
+  },
+  "build_sha256": "867fbc63fc852415197199853130b003811219783fab859db1465256b79cdf40",
+  "compatibility": {
+    "catalog": "area52-v1",
+    "realm": "area52"
+  },
+  "id": "4e9298a8-1277-47c5-ae59-860fe04085ac",
+  "license": "CC0-1.0",
+  "revision": 1,
+  "schema": 1
+}
