@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 
 from library import encode, index, read_json, validate_record
+from layout import catalog_path, write_files
 
 
 def literal(value):
@@ -55,7 +56,7 @@ def overview(items):
              'Browse a build, then copy its build code into **Import Build Code** in game. **Update Library** refreshes the participating server’s shared copies; personal edits and active builds are preserved.', '',
              '| Build | Author | Revision | Catalog |', '|---|---|---|---|']
     for item in sorted(latest.values(), key=lambda r: (r['name'].casefold(), r['id'])):
-        link = 'catalog/' + item['id'] + '/' + str(item['revision']) + '.md'
+        link = catalog_path(item)
         lines.append('| [' + literal(item['name']) + '](' + link + ') | ' + literal(item['author']) + ' | ' + str(item['revision']) + ' | ' + literal(item['compatibility']['catalog']) + ' |')
     if not latest:
         lines += ['', 'No builds have been explicitly published yet.']
@@ -65,17 +66,11 @@ def overview(items):
 def render(root, output):
     root, output = Path(root), Path(output)
     entries = index(root)['builds']
+    files = {}
     for item in entries:
         record = validate_record(read_json(root / item['path']))
-        target = output / 'catalog' / record['id'] / (str(record['revision']) + '.md')
-        target.parent.mkdir(parents=True, exist_ok=True)
-        data = page(record).encode('utf-8')
-        if target.exists():
-            if target.read_bytes() != data:
-                raise ValueError('Existing catalog revision differs')
-        else:
-            with target.open('xb') as stream:
-                stream.write(data)
+        files[catalog_path(item)] = page(record).encode('utf-8')
+    write_files(output, files)
     output.mkdir(parents=True, exist_ok=True)
     target = output / 'CATALOG.md'
     target.write_text(overview(entries), encoding='utf-8', newline='\n')

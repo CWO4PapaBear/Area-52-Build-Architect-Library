@@ -74,7 +74,7 @@ class LibraryTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 library.validate_record(bad)
 
-    def test_immutable_revisions_and_index(self):
+    def test_current_revisions_and_index(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             record = library.make_record(sample(), 'Public alias', 'test-catalog')
@@ -85,8 +85,8 @@ class LibraryTests(unittest.TestCase):
                 library.store(root, changed)
             changed['revision'] = 2
             library.store(root, changed)
-            self.assertEqual(len(library.index(root)['builds']), 2)
-            path.write_text(json.dumps(dict(record, revision=3)))
+            self.assertEqual(len(library.index(root)['builds']), 1)
+            path.write_text(json.dumps(dict(record, id='invalid')))
             with self.assertRaises(ValueError):
                 library.index(root)
 

@@ -7,6 +7,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
 from catalog import page,overview,render
 from library import make_record,store,decode
 from test_library import sample
+from layout import catalog_path, entry
 
 
 class CatalogTests(unittest.TestCase):
@@ -20,15 +21,15 @@ class CatalogTests(unittest.TestCase):
         code=next(line for line in result.splitlines() if line.startswith('A52B1:'))
         self.assertEqual(decode(code),record['build'])
 
-    def test_latest_overview_and_preserved_revisions(self):
+    def test_latest_overview_and_only_current_revision(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp)/'repo';output=Path(tmp)/'rendered'
             first=make_record(sample(),'alias','v1');second=make_record(dict(sample(),Name='Updated'),'alias','v1',first['id'],2)
             store(root,first);store(root,second);render(root,output)
             text=(output/'CATALOG.md').read_text(encoding='utf-8')
             self.assertIn('Updated',text);self.assertNotIn('Frost healer',text)
-            self.assertTrue((output/'catalog'/first['id']/'1.md').exists())
-            self.assertTrue((output/'catalog'/first['id']/'2.md').exists())
+            self.assertFalse((output/catalog_path(entry(first))).exists())
+            self.assertTrue((output/catalog_path(entry(second))).exists())
 
 
 if __name__=='__main__':unittest.main()

@@ -8,10 +8,10 @@
       },
       "id": "db753bc4-914a-40f4-b6a0-bbdeb644daf2",
       "name": "Mystic Knight",
-      "path": "builds/db753bc4-914a-40f4-b6a0-bbdeb644daf2/1.json",
+      "path": "builds/Mystic-Knight--db753bc4-914a-40f4-b6a0-bbdeb644daf2/current.json",
       "revision": 1,
       "sha256": "f45d8cb64e209a18982c680dd06dc0d3eab90c3bd0c6638d5cf97f9ef183308e"
     }
   ],
-  "schema": 1
+  "schema": 2
 }

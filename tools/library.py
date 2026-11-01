@@ -190,28 +190,21 @@ def read_json(path):
 
 
 def store(root, record):
-    record = validate_record(record)
-    directory = Path(root) / 'builds' / record['id']
-    directory.mkdir(parents=True, exist_ok=True)
-    path = directory / (str(record['revision']) + '.json')
-    raw = canonical(record)
-    if path.exists():
-        require(path.read_bytes() == raw, 'Revision already exists with different content')
-    else:
-        with path.open('xb') as output:
-            output.write(raw)
-    return path
+    from layout import migrate, build_path
+    migrate(root, record)
+    return Path(root) / build_path(record)
 
 
 def index(root):
-    records = []
-    for path in sorted((Path(root) / 'builds').glob('*/*.json')):
-        record = validate_record(read_json(path))
-        require(path.parent.name == record['id'] and path.name == str(record['revision']) + '.json', 'Record path mismatch')
-        records.append({'id': record['id'], 'revision': record['revision'], 'name': record['build']['Name'],
-                        'author': record['author'], 'compatibility': record['compatibility'],
-                        'path': path.relative_to(root).as_posix(), 'sha256': hashlib.sha256(path.read_bytes()).hexdigest()})
-    return {'schema': 1, 'builds': records}
+    from layout import scan, entry, build_path
+    rows = scan(root)
+    records, seen = [], set()
+    for path, record in rows:
+        require(path == build_path(record), 'Legacy layout: run migrate before indexing')
+        require(record['id'] not in seen, 'Duplicate current build identity')
+        seen.add(record['id'])
+        records.append(entry(record, (Path(root) / path).read_bytes()))
+    return {'schema': 2, 'builds': sorted(records, key=lambda r: r['id'])}
 
 
 def main():
@@ -234,6 +227,8 @@ def main():
     listing = commands.add_parser('index')
     listing.add_argument('--root', type=Path, required=True)
     listing.add_argument('--output', type=Path, required=True)
+    migration = commands.add_parser('migrate', help='Keep current versions; preserve history in Git')
+    migration.add_argument('--root', type=Path, required=True)
     args = parser.parse_args()
     if args.command == 'export':
         require(args.code.stat().st_size <= MAX_CODE, 'Code file too large')
@@ -245,12 +240,16 @@ def main():
         with args.output.open('x', encoding='utf-8') as output:
             output.write(encode(record['build']) + '\n')
         print('Build code prepared; importing does not activate the build or grant ownership.')
+    elif args.command == 'migrate':
+        from layout import migrate
+        result = migrate(args.root)
+        print(str(len(result['builds'])) + ' current builds migrated')
     else:
         result = index(args.root)
         if args.command == 'index':
             with args.output.open('xb') as output:
                 output.write(canonical(result))
-        print(str(len(result['builds'])) + ' build revisions validated')
+        print(str(len(result['builds'])) + ' current builds validated')
 
 
 if __name__ == '__main__':
