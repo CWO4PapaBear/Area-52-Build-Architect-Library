@@ -23,6 +23,18 @@
       "path": "builds/db753bc4-914a-40f4-b6a0-bbdeb644daf2/2.json",
       "revision": 2,
       "sha256": "d813e23cd8d3c06920049cbf04b22d5cdcdd9de97e196cd8e5a5c368c224cb38"
+    },
+    {
+      "author": "CWO4PapaBear",
+      "compatibility": {
+        "catalog": "area52-v1",
+        "realm": "area52"
+      },
+      "id": "db753bc4-914a-40f4-b6a0-bbdeb644daf2",
+      "name": "Mystic Knight",
+      "path": "builds/db753bc4-914a-40f4-b6a0-bbdeb644daf2/3.json",
+      "revision": 3,
+      "sha256": "9c24469a726c2412e58fd81cfc790ee1548bdb991aac27b0be3dc391253f73c5"
     }
   ],
   "schema": 1
