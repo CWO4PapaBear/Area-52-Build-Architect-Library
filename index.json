@@ -18,6 +18,18 @@
         "catalog": "area52-v1",
         "realm": "area52"
       },
+      "id": "cf4dc17d-f707-4525-9762-64e682017c7f",
+      "name": "Hoplite",
+      "path": "builds/Hoplite--cf4dc17d-f707-4525-9762-64e682017c7f/current.json",
+      "revision": 1,
+      "sha256": "e8a86d7153eab59c254682e6569e879c58d3a764c682f7df8b17ca9c94b6ce3f"
+    },
+    {
+      "author": "CWO4PapaBear",
+      "compatibility": {
+        "catalog": "area52-v1",
+        "realm": "area52"
+      },
       "id": "db753bc4-914a-40f4-b6a0-bbdeb644daf2",
       "name": "Mystic Knight",
       "path": "builds/Mystic-Knight--db753bc4-914a-40f4-b6a0-bbdeb644daf2/current.json",
